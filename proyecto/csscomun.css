@@ -1,0 +1,35 @@
+/*Propiedades relacionadas con el body de las páginas*/
+body {
+  background-color: rgb(203, 230, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+/*Propiedad para los botones tipo submit, esta propiedad en caso necesario se adaptara en cada página que lo necesite*/
+button[type="submit"] {
+  background-color: whitesmoke;
+  border: 1px solid #4CAF50;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+
+/*Propiedad que afecta al enlace de destruir sesion*/
+a.destruirsesion {
+  color: white;
+  text-decoration: none;
+  background-color: green;
+  padding: 10px 32px;
+  margin: -20px -6px;
+  border-radius: 5px;
+}
+
+/*Propiedad que afecta al logo del velez*/
+.logo {
+  position:absolute;
+  bottom: 15px;
+  right: 15px;
+}
