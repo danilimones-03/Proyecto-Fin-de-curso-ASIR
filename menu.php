@@ -170,10 +170,6 @@
         $entradas = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
         $idsParaBorrar = $entradas["Seleccionar"];
       
-        require("funciones.php");
-        $idConexion = conectarbasedatos();
-
-
         $idConexion = mysqli_connect("localhost", "root", "");
         if (!$idConexion) {
             die("Error al conectar con la base de datos");
